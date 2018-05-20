@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C27CEEB20AF25EF0065FFC9 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27CEEA20AF25EF0065FFC9 /* GCDViewController.m */; };
+		0C27CEF320AF307D0065FFC9 /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27CEF220AF307D0065FFC9 /* RootView.m */; };
+		0C27CEF720AF65F90065FFC9 /* LLFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27CEF620AF65F90065FFC9 /* LLFMDB.m */; };
 		0C8EC17B20A7789000104E74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EC17A20A7789000104E74 /* AppDelegate.m */; };
 		0C8EC17E20A7789000104E74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EC17D20A7789000104E74 /* ViewController.m */; };
 		0C8EC18120A7789000104E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8EC17F20A7789000104E74 /* Main.storyboard */; };
@@ -15,6 +18,11 @@
 		0C8EC18920A7789100104E74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EC18820A7789100104E74 /* main.m */; };
 		0C8EC19320A7789100104E74 /* MutableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EC19220A7789100104E74 /* MutableTests.m */; };
 		0C8EC19E20A7789100104E74 /* MutableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EC19D20A7789100104E74 /* MutableUITests.m */; };
+		0C8EC1AF20A890E500104E74 /* UILabel+font.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EC1AD20A890E400104E74 /* UILabel+font.m */; };
+		0C8EC1B020A890E500104E74 /* UIFont+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EC1AE20A890E400104E74 /* UIFont+Runtime.m */; };
+		0C8EC1B720A8A0C600104E74 /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8EC1B620A8A0C600104E74 /* image.xcassets */; };
+		0C8EC1BE20A8A17800104E74 /* image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C8EC1BD20A8A17800104E74 /* image.bundle */; };
+		DE97C481BA39F4F1BB6ABB86 /* libPods-Mutable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4C461AF5C28D23B888F71D /* libPods-Mutable.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C27CEE620AF23120065FFC9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0C27CEE920AF25EF0065FFC9 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		0C27CEEA20AF25EF0065FFC9 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		0C27CEF020AF2BB30065FFC9 /* macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		0C27CEF120AF307D0065FFC9 /* RootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		0C27CEF220AF307D0065FFC9 /* RootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
+		0C27CEF520AF65F90065FFC9 /* LLFMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLFMDB.h; sourceTree = "<group>"; };
+		0C27CEF620AF65F90065FFC9 /* LLFMDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLFMDB.m; sourceTree = "<group>"; };
 		0C8EC17620A7789000104E74 /* Mutable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mutable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8EC17920A7789000104E74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C8EC17A20A7789000104E74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,15 @@
 		0C8EC19920A7789100104E74 /* MutableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8EC19D20A7789100104E74 /* MutableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutableUITests.m; sourceTree = "<group>"; };
 		0C8EC19F20A7789100104E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C8EC1AB20A890E400104E74 /* UILabel+font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+font.h"; sourceTree = "<group>"; };
+		0C8EC1AC20A890E400104E74 /* UIFont+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Runtime.h"; sourceTree = "<group>"; };
+		0C8EC1AD20A890E400104E74 /* UILabel+font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+font.m"; sourceTree = "<group>"; };
+		0C8EC1AE20A890E400104E74 /* UIFont+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Runtime.m"; sourceTree = "<group>"; };
+		0C8EC1B620A8A0C600104E74 /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
+		0C8EC1BD20A8A17800104E74 /* image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = image.bundle; sourceTree = "<group>"; };
+		0F4C461AF5C28D23B888F71D /* libPods-Mutable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mutable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A303210B9E4BA3735EB3A241 /* Pods-Mutable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mutable/Pods-Mutable.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE2C85FEBA3F0F17B8C3B10 /* Pods-Mutable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mutable/Pods-Mutable.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE97C481BA39F4F1BB6ABB86 /* libPods-Mutable.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +104,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C27CEE720AF247A0065FFC9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0C8EC1AC20A890E400104E74 /* UIFont+Runtime.h */,
+				0C8EC1AE20A890E400104E74 /* UIFont+Runtime.m */,
+				0C8EC1AB20A890E400104E74 /* UILabel+font.h */,
+				0C8EC1AD20A890E400104E74 /* UILabel+font.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0C27CEE820AF25CC0065FFC9 /* GCDViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C27CEE920AF25EF0065FFC9 /* GCDViewController.h */,
+				0C27CEEA20AF25EF0065FFC9 /* GCDViewController.m */,
+			);
+			path = GCDViewController;
+			sourceTree = "<group>";
+		};
+		0C27CEEF20AF2B760065FFC9 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				0C27CEF020AF2BB30065FFC9 /* macros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		0C27CEF420AF659D0065FFC9 /* LLFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				0C27CEF520AF65F90065FFC9 /* LLFMDB.h */,
+				0C27CEF620AF65F90065FFC9 /* LLFMDB.m */,
+			);
+			path = LLFMDB;
+			sourceTree = "<group>";
+		};
 		0C8EC16D20A7789000104E74 = {
 			isa = PBXGroup;
 			children = (
+				0C27CEE620AF23120065FFC9 /* PrefixHeader.pch */,
 				0C8EC17820A7789000104E74 /* Mutable */,
 				0C8EC19120A7789100104E74 /* MutableTests */,
 				0C8EC19C20A7789100104E74 /* MutableUITests */,
 				0C8EC17720A7789000104E74 /* Products */,
+				80FD752B72CC78E733F5AA03 /* Pods */,
+				366DB0038A7107D3016AC696 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +167,23 @@
 		0C8EC17820A7789000104E74 /* Mutable */ = {
 			isa = PBXGroup;
 			children = (
+				0C27CEF420AF659D0065FFC9 /* LLFMDB */,
+				0C27CEEF20AF2B760065FFC9 /* Macros */,
+				0C27CEE820AF25CC0065FFC9 /* GCDViewController */,
+				0C27CEE720AF247A0065FFC9 /* Category */,
 				0C8EC17920A7789000104E74 /* AppDelegate.h */,
 				0C8EC17A20A7789000104E74 /* AppDelegate.m */,
 				0C8EC17C20A7789000104E74 /* ViewController.h */,
 				0C8EC17D20A7789000104E74 /* ViewController.m */,
+				0C27CEF120AF307D0065FFC9 /* RootView.h */,
+				0C27CEF220AF307D0065FFC9 /* RootView.m */,
 				0C8EC17F20A7789000104E74 /* Main.storyboard */,
 				0C8EC18220A7789100104E74 /* Assets.xcassets */,
 				0C8EC18420A7789100104E74 /* LaunchScreen.storyboard */,
 				0C8EC18720A7789100104E74 /* Info.plist */,
 				0C8EC18820A7789100104E74 /* main.m */,
+				0C8EC1B620A8A0C600104E74 /* image.xcassets */,
+				0C8EC1BD20A8A17800104E74 /* image.bundle */,
 			);
 			path = Mutable;
 			sourceTree = "<group>";
@@ -132,6 +206,23 @@
 			path = MutableUITests;
 			sourceTree = "<group>";
 		};
+		366DB0038A7107D3016AC696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F4C461AF5C28D23B888F71D /* libPods-Mutable.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80FD752B72CC78E733F5AA03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A303210B9E4BA3735EB3A241 /* Pods-Mutable.debug.xcconfig */,
+				CCE2C85FEBA3F0F17B8C3B10 /* Pods-Mutable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C8EC1A220A7789100104E74 /* Build configuration list for PBXNativeTarget "Mutable" */;
 			buildPhases = (
+				E0A65BBE014ADE2C5A12CF6A /* [CP] Check Pods Manifest.lock */,
 				0C8EC17220A7789000104E74 /* Sources */,
 				0C8EC17320A7789000104E74 /* Frameworks */,
 				0C8EC17420A7789000104E74 /* Resources */,
+				04271A2A9B3B3338925481D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +330,9 @@
 			files = (
 				0C8EC18620A7789100104E74 /* LaunchScreen.storyboard in Resources */,
 				0C8EC18320A7789100104E74 /* Assets.xcassets in Resources */,
+				0C8EC1BE20A8A17800104E74 /* image.bundle in Resources */,
 				0C8EC18120A7789000104E74 /* Main.storyboard in Resources */,
+				0C8EC1B720A8A0C600104E74 /* image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +352,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04271A2A9B3B3338925481D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mutable/Pods-Mutable-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mutable/Pods-Mutable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A65BBE014ADE2C5A12CF6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mutable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C8EC17220A7789000104E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0C8EC17E20A7789000104E74 /* ViewController.m in Sources */,
+				0C27CEEB20AF25EF0065FFC9 /* GCDViewController.m in Sources */,
+				0C8EC1B020A890E500104E74 /* UIFont+Runtime.m in Sources */,
+				0C8EC1AF20A890E500104E74 /* UILabel+font.m in Sources */,
+				0C27CEF720AF65F90065FFC9 /* LLFMDB.m in Sources */,
 				0C8EC18920A7789100104E74 /* main.m in Sources */,
 				0C8EC17B20A7789000104E74 /* AppDelegate.m in Sources */,
+				0C27CEF320AF307D0065FFC9 /* RootView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,35 +578,41 @@
 		};
 		0C8EC1A320A7789100104E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A303210B9E4BA3735EB3A241 /* Pods-Mutable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F4DH3KVRGU;
+				DEVELOPMENT_TEAM = BBNAVR2TD3;
+				GCC_PREFIX_HEADER = "${SRCROOT}/PrefixHeader.pch";
 				INFOPLIST_FILE = Mutable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.text.Mutable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0C8EC1A420A7789100104E74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE2C85FEBA3F0F17B8C3B10 /* Pods-Mutable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F4DH3KVRGU;
+				DEVELOPMENT_TEAM = BBNAVR2TD3;
+				GCC_PREFIX_HEADER = "${SRCROOT}/PrefixHeader.pch";
 				INFOPLIST_FILE = Mutable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.text.Mutable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
